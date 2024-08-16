@@ -9,6 +9,7 @@
   </head>
   <body>
     <script src="js/script.js" type="module"></script>
+    <!-- heading -->
     <header>
       <nav class="header__nav">
         <div class="header__logo">
@@ -24,7 +25,7 @@
             <a href="#food">Food</a>
           </li>
           <li>
-            <a href="#serives">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li>
             <a href="#about-us">About Us</a>
@@ -41,7 +42,7 @@
         </ul>
       </nav>
     </header>
-
+    <!-- hero section -->
     <section class="hero">
       <div class="hero-image">
         <img src="assets/sushi-1.png" alt="sushi" />
@@ -86,7 +87,7 @@
         </div>
       </div>
     </section>
-
+    <!-- about section -->
     <section class="about-us" id="about-us">
       <div class="about-us__image">
         <div class="about-us__image-sushi3">
@@ -115,6 +116,37 @@
           customers.
         </p>
       </div>
+    </section>
+    <!-- food section -->
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title">Popular Foods</h2>
+
+      <div class="popular-foods__filters sushi__hide-scrollbar">
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+          <img src="assets/sushi-9.png" alt="sushi 9" />
+          Sushi
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="assets/sushi-8.png" alt="sushi 8" />
+          Ramen
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="assets/sushi-7.png" alt="sushi 7" />
+          Udon
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="assets/sushi-6.png" alt="sushi 6" />
+          Udon
+        </button>
+        <button class="popular-foods__filter-btn">All</button>
+      </div>
+      <div class="popular-foods__catalog"></div>
+      <button class="popular-foods__button">
+        Explore Food
+
+        <img src="assets/arrow-right.svg" alt="arrow-right" />
+      </button>
     </section>
   </body>
 </html>
